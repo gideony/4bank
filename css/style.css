@@ -1,0 +1,480 @@
+body, h1, h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.menu{
+    width: 100%;
+    height: 20px;
+    background: #FF914D;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    margin-top: -26px;
+
+    height: 100px;
+    width: 100px;
+}
+
+
+.menu-nav {
+    max-width: 100%;
+    float: left;
+}
+
+.menu-nav li {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.fa-solid{
+    margin-left: 10px;
+}
+
+.menu-nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.login li {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 70px;
+}
+
+.login {
+    float: right;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+}
+.login a:hover {
+    color: black;
+}
+
+
+
+/* inicio da imagem após o topo */
+
+.imagem {
+    background: url('../img/imgtopo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 765px;
+}
+
+.imagem h1{
+    padding: 300px 0 0 0;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.imagem h2{
+    margin-left: 220px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.form{
+    box-sizing: border-box;
+    background: white;
+    max-width: 330px;
+    height: 250px;
+    float: right;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -190px;
+    margin-right: 40px;
+}
+.form h3{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.name{
+    color: #585858;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.bto{
+    background: #FF914D;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.campo{
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+/* final da imagem após o topo */
+
+/* inicio da seção 2 */
+
+.secao2{
+    height: 800px;
+    background: white;
+}
+
+.secao2 h2{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 45px;
+    color: #FF914D;
+    margin-left: 250px;
+    margin-top: 230px;
+    
+}
+
+.secao2 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 38px;
+    color: black;
+    margin-left: 255px;
+    margin-bottom: 23px;
+}
+
+.img-cartao{
+    float: left;
+    width: 45%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.cartao{
+    float: left;
+    width: 45%;
+    
+}
+
+.link2 {
+    margin-left: 255px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+/* fim da seção 2 */
+
+/* inicio da seção 3 */
+
+.secao3{
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao3 h2{
+    color: #FF914D;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 45px;
+    margin-left: 250px;
+}
+
+.secao3 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    color: black;
+    margin-left: 255px;
+    
+}
+
+.link3 {
+    margin-left: 255px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+.divcartao3{
+    width: 45%;
+    float: left;
+    margin-top: 350px;
+}
+
+.homem-com-cartao {
+    margin-left: 100px;
+    margin-top: 40px;
+    float: left;
+    border-radius: 15px;
+}
+
+/* fim da seção 3  */
+
+/* inicio da seção 4 */
+
+.secao4{
+    height: 800px;
+    background: #f5f5f5;
+}
+
+.secao4 h2{
+    color: #FF914D;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 45px;
+    margin-left: 250px;
+}
+
+.secao4 h3{
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    color: black;
+    margin-left: 255px;
+    
+}
+
+.link4 {
+    margin-left: 255px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.celular-conta{
+    width: 45%;
+    float: left;
+    margin-top: 350px;  
+}
+
+.celular-conta-img{
+    margin-left: 150px;
+    margin-top: 190px;
+    float: left;
+    width: 45%;
+}
+
+
+/* inicio da seção 5, 6 e 7 */
+
+.secao5{
+    background: url('../img/img1.png') no-repeat center center;
+    background-position: right 25% bottom 55%;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+.secao5 h2{
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;   
+}
+
+.link5 {
+    margin-left: 500px;
+    color: #030303;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.secao6{
+    background: url('../img/img6.png') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    
+}
+
+.secao6 h2{
+    padding: 337px 0 0 0;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Cabin', sans-serif;   
+}
+
+.link6 {
+    margin-left: 500px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.secao7{
+    background-color: black;
+    background-size: cover;
+    height: 430px;
+    
+    
+}
+
+.secao7 h2{
+    padding-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: white;
+    font-family: 'Cabin', sans-serif;   
+    
+}
+
+
+.link7 {
+    margin-left: 100px;
+    color: #FF914D;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+/* fim da seção 5, 6 e 7 */
+
+
+/* inicio footer 1 */
+
+.footer1{
+    width: 100%;
+    height: 500px;
+    background-color: #111111;
+}
+
+.sec1{
+    width: 23%;
+    float: left;
+}
+.sec2{
+    width: 23%;
+    float: left;
+}
+.sec3{
+    width: 23%;
+    float: left;
+}
+.sec4{
+    width: 23%;
+    float: left;
+}
+
+.sec1, .sec2, .sec3, .sec4{
+    margin-top: 150px;
+}
+
+.sec1 a, .sec2 a, .sec3 a, .sec4 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.sec1 li, .sec2 li, .sec3 li, .sec4 li{
+    padding-left: 8%;
+    list-style: none;
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.sec1 h2, .sec2 h2, .sec3 h2, .sec4 h2{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    padding-left: 8%;
+    margin-bottom: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec1 li a:hover{
+    color: #FF914D;
+}
+.sec2 li a:hover{
+    color: #FF914D;
+}
+.sec3 li a:hover{
+    color: #FF914D;
+}
+.sec4 li a:hover{
+    color: #FF914D;
+}
+
+/* fim footer 1 */
+
+/* inicio footer 2 */
+
+.footer2{
+    width: 100%;
+    height: 600px;
+    background-color: #111111;
+}
+
+/* inicio footer 3 */
+
+.footer3{
+    width: 100%;
+    height: 170px;
+    background-color: #111111;
+    border-top: 1px solid #191919 ;
+}
+
+.imgfooter{
+    padding: 30px;
+    float: left;
+}
+
+.footer3 p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 60px;
+    float: left;
+}
+
+.redes{
+    float: right;
+    list-style: none;
+    color: white;
+    padding-top: 60px;
+
+}
+
+.redes li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.redes li:hover{
+    color: #FF914D;
+}
+
+/* fim footer 3 */

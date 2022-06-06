@@ -1,0 +1,300 @@
+/* tamnho 576 */
+
+@media screen and (max-width: 576px) { 
+    body{
+        overflow-x: hidden;
+    }
+    
+    .menu-nav {
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+
+    .form{
+        margin-top: 40px;
+        margin-left: 100px;
+        position: absolute;
+    }
+
+
+    .imagem h1{
+        margin-left: 45px;
+        
+    }
+    .imagem h2{
+        margin-left: 45px;
+        white-space: nowrap;
+        font-size: 19px;
+    }
+    .secao2{
+        height: 800px;
+    }
+    .cartao h2{
+        margin-top: 50px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .cartao h3{
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link2{
+        margin-left: 45px;
+    }
+    .img-cartao{
+        clear: both;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .divcartao3 h2{
+        margin-top: -190px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .divcartao3 h3{
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link3{
+        margin-left: 45px;
+    }
+    .cartao3{
+        margin-top: 0px;
+        margin-left: -75px;
+        max-width: 576px;
+        max-height: 380px;
+    }
+    .secao4{
+        height: 1300px;
+    }
+    .celular-conta h2{
+        margin-top: -190px;
+        margin-left: 45px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .celular-conta h3{
+        margin-left: 45px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link4{
+        margin-left: 45px;
+        white-space: nowrap;
+    }
+    .celular-conta-img{
+        margin-top: 10px;
+    }
+    .secao5 h2{
+        margin-left: 45px;
+    }
+    .link5{
+        margin-left: 45px;
+    }
+    .secao6 h2{
+        margin-left: 45px;
+    }
+    .link6{
+        margin-left: 45px;
+    }
+    .secao7{
+        height: 500px;
+    }
+    .secao7 h2{
+        margin-left: 45px;
+    }
+    .link7{
+        margin-left: 45px;
+    }
+    .footer2{
+        height: 2900px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .sec4{
+        width: 100%;
+    }
+    .footer3 ul{
+        float: left;
+        margin-left: 120px;
+    }
+    .footer3{
+        height: 450px;
+    }
+    .footer3 p{
+        margin-left: 45px;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    .footer3 img{
+        margin-left: 190px; 
+    }
+} 
+
+/* tamnho 768 */
+/*
+@media screen and ( max-width: 768px) { 
+    body{
+        overflow-x: hidden;
+    }
+    .menu-nav{
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .menu-nav-mobile{
+        display: block;
+        float: right;
+        padding-right: 70px;
+        margin-top: 8px;
+    }
+    .imagem h1{
+        margin-left: 100px;
+    }
+    .imagem h2{
+        margin-left: 100px;
+        white-space: nowrap;
+        font-size: 19px;
+    }
+    .form{
+        margin-top: 80px;
+        margin-left: 200px;
+        position: absolute;
+    }
+    .secao2{
+        height: 800px;
+    }
+    .cartao h2{
+        margin-top: 50px;
+        margin-left: 200px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .cartao h3{
+        margin-left: 200px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link2{
+        margin-left: 201px;
+    }
+    .img-cartao{
+        clear: both;
+        margin-top: 40px;
+        margin-left: 130px;
+    }
+    .divcartao3 h2{
+        margin-top: -190px;
+        margin-left: 200px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .divcartao3 h3{
+        margin-left: 200px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link3{
+        margin-left: 201px;
+    }
+    .cartao3{
+        margin-top: 0px;
+        margin-left: 25px;
+        max-width: 576px;
+        max-height: 380px;
+    }
+    .secao4{
+        height: 1300px;
+    }
+    .celular-conta h2{
+        margin-top: -190px;
+        margin-left: 200px;
+        font-size: 40px;
+        width: 576px;
+    }
+    .celular-conta h3{
+        margin-left: 200px;
+        font-size: 30px;
+        white-space: nowrap;
+        width: 576px;
+    }
+    .link4{
+        margin-left: 201px;
+        white-space: nowrap;
+    }
+    .celular-conta-img{
+        margin-top: 400px;
+        margin-left: -110px;
+    }
+    .secao5 h2{
+        margin-left: 100px;
+    }
+    .link5{
+        margin-left: 101px;
+    }
+    .secao6 h2{
+        margin-left: 100px;
+    }
+    .link6{
+        margin-left: 101px;
+    }
+    .secao7{
+        height: 400px;
+    }
+    .secao7 h2{
+        margin-left: 100px;
+    }
+    .link7{
+        margin-left: 101px;
+    }
+    .footer2{
+        height: 2800px;
+    }
+    .sec1{
+        width: 100%;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .sec3{
+        width: 100%;
+    }
+    .sec4{
+        width: 100%;
+    }
+    .footer3 ul{
+        float: left;
+        margin-left: 10px;
+    }
+    .footer3{
+        height: 450px;
+    }
+    .footer3 p{
+        margin-left: 150px;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    .footer3 img{
+        margin-left: 290px; 
+    }
+    
+}  
